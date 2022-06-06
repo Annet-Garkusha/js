@@ -1,0 +1,61 @@
+.container {
+    background-color: #C4C4C4;
+    width: 661px;
+    height: 763px;
+    margin: 0 auto;
+    padding-left: 74px;
+    box-sizing: border-box;
+}
+input {
+    width: 450px;
+    height: 50px;
+    margin-top: 62px;
+    font-size: 48px;
+    
+}
+.word {
+    width: 455px;
+    height: 44px;
+    background-color: #E3E3E3;
+    font-size: 30px;
+    border: 2px solid black;
+}
+.word:hover {
+    cursor: pointer;
+    background-color: #65CDF9;
+}
+.result {
+    margin-bottom: 70px;
+}
+.options{
+    width: 450px;
+    height: 90px;
+    background-color: #E27BEB;
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 5px;
+    position: relative;
+}
+.close {
+    position: absolute;
+    right: 34px;
+    top: 31px;
+    width: 42px;
+}
+.close:hover {
+    cursor: pointer;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 45px;
+    width: 4px;
+    background-color: #FF0000;
+    }
+    .close:before {
+    transform: rotate(45deg);
+    }
+    .close:after {
+    transform: rotate(-45deg);
+    }
